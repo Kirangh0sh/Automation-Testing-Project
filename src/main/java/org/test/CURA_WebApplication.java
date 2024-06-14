@@ -108,14 +108,7 @@ public class CURA_WebApplication extends BaseClass {
 		launchUrl("https://katalon-demo-cura.herokuapp.com/");
 		MaxWindow();
 
-		WebElement MakeApmnt = driver.findElement(By.id("btn-make-appointment"));
-		clickBtn(MakeApmnt);
-		WebElement UserName = driver.findElement(By.id("txt-username"));
-		passText("John Doe", UserName);
-		WebElement pass = driver.findElement(By.id("txt-password"));
-		passText("ThisIsNotAPassword", pass);
-		WebElement login = driver.findElement(By.id("btn-login"));
-		clickBtn(login);
+		
 	}
 
 }

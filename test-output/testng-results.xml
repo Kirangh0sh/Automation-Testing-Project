@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-14T16:59:04 IST" name="Default suite" finished-at="2024-06-14T16:59:38 IST" duration-ms="34598">
+  <suite started-at="2024-06-15T13:10:24 IST" name="Default suite" finished-at="2024-06-15T13:11:25 IST" duration-ms="61045">
     <groups>
     </groups>
-    <test started-at="2024-06-14T16:59:04 IST" name="Default test" finished-at="2024-06-14T16:59:38 IST" duration-ms="34598">
+    <test started-at="2024-06-15T13:10:24 IST" name="Default test" finished-at="2024-06-15T13:11:25 IST" duration-ms="61045">
       <class name="org.test.CURA_WebApplication">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-14T16:59:04 IST" name="openBrowser" finished-at="2024-06-14T16:59:13 IST" duration-ms="9082" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:24 IST" name="openBrowser" finished-at="2024-06-15T13:10:26 IST" duration-ms="2135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="tc1()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-14T16:59:13 IST" name="tc1" finished-at="2024-06-14T16:59:18 IST" duration-ms="5316" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:26 IST" name="tc1" finished-at="2024-06-15T13:10:31 IST" duration-ms="4752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-14T16:59:18 IST" name="closeBrowser" finished-at="2024-06-14T16:59:22 IST" duration-ms="3291" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:31 IST" name="closeBrowser" finished-at="2024-06-15T13:10:34 IST" duration-ms="3325" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-14T16:59:22 IST" name="openBrowser" finished-at="2024-06-14T16:59:23 IST" duration-ms="957" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:34 IST" name="openBrowser" finished-at="2024-06-15T13:10:35 IST" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="tc2()[pri:1, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-14T16:59:23 IST" name="tc2" finished-at="2024-06-14T16:59:35 IST" duration-ms="12624" status="PASS">
+        <test-method signature="tc2()[pri:1, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:35 IST" name="tc2" finished-at="2024-06-15T13:10:48 IST" duration-ms="13177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-14T16:59:35 IST" name="closeBrowser" finished-at="2024-06-14T16:59:38 IST" duration-ms="3278" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:48 IST" name="closeBrowser" finished-at="2024-06-15T13:10:53 IST" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:53 IST" name="openBrowser" finished-at="2024-06-15T13:10:54 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="tc3()[pri:2, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:10:54 IST" name="tc3" finished-at="2024-06-15T13:11:03 IST" duration-ms="9176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:11:03 IST" name="closeBrowser" finished-at="2024-06-15T13:11:07 IST" duration-ms="4246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:11:07 IST" name="openBrowser" finished-at="2024-06-15T13:11:08 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="tc4()[pri:3, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:11:08 IST" name="tc4" finished-at="2024-06-15T13:11:22 IST" duration-ms="13660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.test.CURA_WebApplication@7e7be63f]" started-at="2024-06-15T13:11:22 IST" name="closeBrowser" finished-at="2024-06-15T13:11:25 IST" duration-ms="3284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
